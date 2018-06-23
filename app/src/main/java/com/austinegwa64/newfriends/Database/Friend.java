@@ -35,6 +35,12 @@ public class Friend {
         this.placeMet = placeMet;
     }
 
+    public Friend(String name, String contact, String placeMet) {
+        this.name = name;
+        this.contact = contact;
+        this.placeMet = placeMet;
+    }
+
     public int getId() {
         return id;
     }
