@@ -13,7 +13,7 @@ import java.util.List;
 @Dao
 public interface DatabaseDao {
 
-    @Query("SELECT * FROM myFriends")
+    @Query("SELECT * FROM friends")
     List<Friend> getAllFriends();
 
     @Insert

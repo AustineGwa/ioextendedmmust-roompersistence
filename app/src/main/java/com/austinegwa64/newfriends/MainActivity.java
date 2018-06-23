@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         startSaveFriendActivity = findViewById(R.id.startAnotherActivity);
 
         //whenever the activity is started, it reads data from database and stores it into
-        // local array list 'items'
+        // local array list 'friends'
         final AppDatabase database = Room.databaseBuilder(getApplicationContext(), AppDatabase.class,"friends")
                 .build();
 
