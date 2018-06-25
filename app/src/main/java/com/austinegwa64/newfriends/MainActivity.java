@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         //whenever the activity is started, it reads data from database and stores it into local array list 'friends'
         
-        final AppDatabase database = Room.databaseBuilder(getApplicationContext(), AppDatabase.class,"friends")
+        final AppDatabase database = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "friends")
                 .build();
 
        // get data in background thread
